@@ -1,0 +1,72 @@
+
+.framework-posts {
+    margin-top: 15px;
+}
+.framework-posts .input-box {
+    padding: 10px 0;
+}
+.framework-posts .input-box .heading{
+		display: inline-block;
+    font-weight: bold;
+    color: #1197f9;
+    width: 20%;
+    vertical-align: top;
+    font-size: 1.1em;
+    text-align: right;
+}
+.framework-posts .input-box .option{
+	display: inline-block;
+    margin-left: 10px;
+    width: calc(80% - 15px);
+}
+
+.framework-posts .input-box {
+    margin: 5px 0;
+    padding: 5px;
+    vertical-align: top;
+}
+.framework-posts .input-box.op-multicheck {
+   margin-top: -12px;
+}
+
+.framework-posts .input-box .desc {
+    color: #999;
+    display: inline-block;
+    margin-top: 3px;
+    vertical-align: top;
+}
+.framework-posts label {
+    margin: 0 10px 10px 0;
+}
+
+.framework-posts input{
+    margin-right: 10px;
+}
+
+.framework-posts .of-input {
+    width: 100%;
+    min-height: 30px;
+    max-width: 600px;
+}
+.framework-posts .mini .of-input {
+    width: 160px;
+}
+
+.framework-posts .question{
+    display: none;
+    margin-top: 5px;
+}
+@media (max-width:580px){
+	.framework-posts .input-box .heading,.framework-posts .input-box .option{
+		display: block;
+    width: 100%;
+    text-align: unset;
+    margin: 0;
+}
+
+.framework-posts .input-box .heading{
+border-left: 3px solid;
+    padding-left: 15px;
+    margin: 10px 0;
+}
+}

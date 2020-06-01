@@ -1,0 +1,10 @@
+.widget_ui_slider_box>img{width:calc(60% - 6px);margin:3px}
+.widget_ui_slider_g{padding:5px 0}
+.ashu_upload_button,.delimg_upload_button{margin:3px!important}
+.ok_button{float:right}
+.hide{display:none!important}
+.panel-hide{display:none}
+.panel{border:1px solid #ddd;display:block}
+.panel .panel-title{margin:0;padding:10px;background:#f4f5f6}
+.panel .panel-conter{padding:6px}
+.panel .panel-title:before{content:"\f140";font:normal 20px/1 dashicons;margin:-2px;float:right}

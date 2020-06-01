@@ -1,0 +1,12 @@
+#posts_zibpay_meta_box .pay-hide,#posts_zibpay_meta_box .pay-download{
+    display: none;
+}
+#file-progress {
+    padding: 5px;
+    display: inline-block;
+    color: #ff3737;
+}
+.pay-download .of-input{
+    font-size: 12px;
+    max-width: 100% !important;
+}

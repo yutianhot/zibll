@@ -1,0 +1,346 @@
+.optionsframework.wrap .updated.fade.settings-error{position:fixed;right:20px;bottom:90pt;z-index:998;margin:5px 10px;min-width:178px;border:none;border-radius:6px;background-image:linear-gradient(-15deg,#d35ff9 10%,#7367f0 100%);box-shadow:0 0 15px 0 #ddd;color:#fff;transition:all .6s}
+.optionsframework.wrap .updated.fade.settings-error .notice-dismiss:before{color:#fff}
+#optionsframework-wrap{position:relative;border:1px solid #ddd;border-radius:6px;background:#fff;box-shadow:0 0 20px rgba(82,82,82,.13)}
+#optionsframework-wrap .nav-page-title{margin:0;padding:26px;border-radius:6px 6px 0 0;background-image:linear-gradient(135deg,#f97794 10%,#623aa2 100%);color:#fff;animation:hue 60s infinite linear;perspective:500px}
+#optionsframework-wrap .nav-page-title .after{position:absolute;right:12%;color:hsla(0,0%,100%,.05);font-weight:800;font-style:oblique;font-size:5pc;transform:rotateY(-65deg) rotate(-5deg) scaleX(1.5) translateY(-7px)}
+#optionsframework-wrap nav{position:absolute;top:70px;bottom:0;overflow-y:auto;width:180px;border:none;opacity:1;transition:all .2s;transform:scaleX(1);transform-origin:left}
+#optionsframework-wrap * input:focus{outline:0}
+.qnav-tab{display:block;padding:8px 20px;color:#444;text-align:center;text-decoration:none;font-weight:600;font-size:14px}
+.qnav-tab:last-child{margin-bottom:30px}
+.qnav-tab.nav-tab-active,.qnav-tab:hover{border:none;background:hsla(0,0%,87%,.4);color:#0692d2}
+.qnav-tab.nav-tab-active:focus,.qnav-tab:focus{border:none;box-shadow:none}
+#optionsframework-metabox{margin-left:180px;border-left:1px solid #ddd}
+#wpbody-content #optionsframework-metabox{padding:0}
+#optionsframework{margin:0;min-height:700px;border:none;background:#f9f9f9;line-height: 1.4;box-shadow:none}
+#optionsframework h2{position:absolute;top:-45px;right:20px;margin:0;color:#fff;font-weight:400;font-size:20px;cursor:default}
+#optionsframework p{    margin-top: 0;}
+#optionsframework .section{padding:15px 15px 15px 200px}
+#optionsframework .section.section-html-src{padding:10px!important}
+#optionsframework .group{padding-bottom:40px}
+#optionsframework .section h4{float:left;margin:0 0 0 -190px;width:170px;color:#0692d2;text-align:right;font-size:1.1em;line-height:20px}
+#optionsframework .section.mini-heading .heading {
+    color: #888;
+    font-size: 1em;
+}
+@-webkit-keyframes hue{from{-webkit-filter:hue-rotate(0)}
+	to{-webkit-filter:hue-rotate(-360deg)}
+}
+#optionsframework .section .controls{position:relative;float:left;padding-right:2%;max-width:50pc;min-width:350px}
+#optionsframework .section-multicheck.section .controls{overflow-y:auto;padding:10px;max-height:500px;border-radius:6px;background:#fff}
+#optionsframework .section .explain{position:relative;float:left;color:#777;font-size:13px;line-height:15px}
+#optionsframework .options-notice .explain{padding:15px;border-left:3px solid #0591d2;background:#eaf3f7}
+#optionsframework .section .dopto{color:#b98d9e}
+#optionsframework .section-checkbox .controls{width:98%}
+#optionsframework .section-checkbox .explain{max-width:90%}
+#optionsframework .controls input[type=text]{width:100%}
+#optionsframework .controls input[type=text].wp-color-picker{width:65px}
+#optionsframework .controls select,#optionsframework .controls textarea{width:100%}
+#optionsframework .section-multicheck label,#optionsframework .section-radio label{float:left;margin-bottom:5px;max-width:90%;line-height:1pc}
+#optionsframework input.checkbox,#optionsframework input.of-radio{float:left;clear:both;margin:0 10px 5px 0}
+#optionsframework input.checkbox:focus,#optionsframework input.of-radio:focus{border-color:#0692d2;box-shadow:0 0 2px #ec3108}
+#optionsframework input.checkbox:hover,#optionsframework input.of-radio:hover{border-color:rgba(241,35,111,.6)}
+#optionsframework input.checkbox:checked:before{color:#0692d2}
+#optionsframework input.of-radio:checked:before{background:#0692d2}
+#optionsframework .section-typography .controls,#optionsframework .section-typography .explain{float:none;width:auto}
+#optionsframework .controls .of-typography-size{float:left;width:5pc}
+#optionsframework .controls .of-typography-unit{float:left;margin-left:5px;width:50px}
+#optionsframework .controls .of-typography-face{float:left;margin-left:5px;width:75pt}
+#optionsframework .controls .of-typography-style{float:left;margin-right:5px;margin-left:5px;width:5pc}
+#optionsframework .section-typography .wp-picker-container{margin-top:2px}
+#optionsframework .of-background-properties{clear:both;margin-top:18px}
+#optionsframework .controls .of-background-attachment,#optionsframework .controls .of-background-position,#optionsframework .controls .of-background-repeat{float:left;margin-right:5px;width:125px}
+#optionsframework .section-background .wp-picker-container{margin-bottom:10px}
+#optionsframework .controls .of-radio-img-img{float:left;display:none;margin:0 5px 5px 0;max-width:90%;border:3px solid #f9f9f9;cursor:pointer}
+#optionsframework .controls .of-radio-img-selected{border:3px solid #0692d2}
+#optionsframework .controls .of-radio-img-img:hover{opacity:.8}
+#optionsframework .controls .of-border-width{float:left;width:5pc}
+#optionsframework .controls .of-border-style{float:left;width:90pt}
+#optionsframework .group,#optionsframework .hide{display:none}
+#optionsframework .of-option-image{margin:3px 0 18px;max-width:340px}
+#optionsframework .mini .controls select,#optionsframework .section .mini .controls{width:140px}
+#optionsframework .mini .controls,#optionsframework .mini .controls input{width:140px;min-width:140px}
+#optionsframework .mini .explain{max-width:74%}
+#optionsframework .section-editor .explain{float:none;margin-bottom:5px;max-width:98%}
+#optionsframework .controls input.upload{width:80%}
+#optionsframework .screenshot{position:relative;float:left;margin-top:3px;margin-left:1px;max-width:255px}
+#optionsframework .screenshot img{float:left;margin-bottom:10px;padding:4px;max-width:255px;max-height:200px;min-width:40px;border:1px solid #ddd;background:#fafafa}
+#optionsframework .screenshot .remove-image{position:absolute;bottom:4px;left:-4px;float:left;display:block;padding:0;width:1pc;height:1pc;border:medium none;background:url(../img/ico-delete.png) no-repeat;text-indent:-9999px}
+#optionsframework .screenshot .no-image .file_link{margin-left:20px;line-height:2}
+#optionsframework .screenshot .no-image .file_link a{text-decoration:none}
+#optionsframework .screenshot .no_image .remove-button{bottom:0}
+#optionsframework .reset-button{cursor:pointer}
+#optionsframework-submit{position:fixed;right:30px;bottom:30px;padding:10px;border:1px solid #ddd;border-radius:8px;background-color:hsla(0,0%,100%,.7);box-shadow:0 0 18px 0 hsla(0,0%,59%,.3);text-align:center}
+#optionsframework-submit input{margin:10px;padding:0 15px 1px;height:2pc;border:none;border-radius:30px;color:#fff;text-shadow:none;font-size:13px;opacity:.9;cursor:pointer;transition:all .2s}
+#optionsframework-submit .button-bc{background-image:linear-gradient(135deg,#659ff7 10%,#1366cc 100%);box-shadow:-1px 2px 10px 0 rgba(93,120,128,.4)}
+#optionsframework-submit .button-cz{background-image:linear-gradient(135deg,#f98a53 10%,#f74e4f 100%);box-shadow:-1px 2px 10px 0 rgba(93,120,128,.4)}
+#optionsframework-submit input:hover{box-shadow:-1px 2px 10px 0 hsla(210,1%,42%,.75);opacity:1}
+#optionsframework .section:after{clear:both;display:table;content:""}
+.wp-core-ui .button,.wp-core-ui .button-primary,.wp-core-ui .button-secondary{box-shadow:none;text-shadow:none}
+.of-radio-img-label,input.of-radio-img-radio{display:none}
+.of-radio-color{display:inline-block;margin:0 5px 0 0;width:40px;height:25px}
+#optionsframework .section.op-multicheck{margin-top:-10px;padding-top:0}
+#optionsframework-submit .button-nav{position:relative;display:none;width:30px;height:28px;border:1px solid #ccc;border-radius:3px;cursor:pointer}
+#optionsframework-wrap .button-nav-bj{position:fixed;top:0;left:0;z-index:9998;display:none;width:100%;height:100%;background:rgba(0,0,0,.2);opacity:0;transition:all .2s}
+#optionsframework-submit .button-nav:before{position:absolute;top:6px;left:5px;width:20px;height:5px;border-top:2px solid #888;border-bottom:2px solid #888;content:''}
+#optionsframework-submit .button-nav:after{position:absolute;top:14px;left:5px;width:20px;height:6px;border-bottom:2px solid #888;content:''}
+#optionsframework-submit .button-nav:active{background:#ececec}
+#optionsframework .section-color .controls,#optionsframework .section-colorradio .controls,#optionsframework .section-radio .controls{float:none;overflow:hidden;margin-bottom:5px;width:100%}
+#optionsframework .section-color .explain,#optionsframework .section-colorradio .explain,#optionsframework .section-radio .explain{float:none;width:100%}
+#optionsframework .question{display:inline-block;color:#999;transition:all .3s}
+#optionsframework .question .dashicons{margin:-10px;padding:10px;width:30px;font-size:18px;cursor:pointer}
+#optionsframework .question_nr{position:absolute;right:0;bottom:13px;left:0;margin:10px 15px;padding:6px;max-width:300px;min-width:150px;border-radius:6px;background:#fff;box-shadow:0 0 20px rgba(0,0,0,.15);line-height:18px;opacity:0;transition:all .3s;transform:scaleY(0);transform-origin:bottom}
+#optionsframework .question:hover{color:#666}
+#optionsframework .question:hover .question_nr{opacity:1;transform:scaleY(1)}
+#optionsframework .question:after{content:''}
+@media (max-width:1000px){#optionsframework-wrap nav{width:10pc}
+#optionsframework-metabox{margin-left:10pc}
+#optionsframework .section{padding:15px 15px 15px 10pc}
+#optionsframework .section h4{margin:0 0 0 -150px;width:140px}
+}
+@media (max-width:960px){#optionsframework .section{padding:15px 15px 15px 200px}
+#optionsframework .section h4{margin:0 0 0 -190px;width:170px}
+}
+@media (max-width:890px){#optionsframework .section{padding:15px 15px 15px 10pc}
+#optionsframework .section h4{margin:0 0 0 -150px;width:140px}
+}
+@media (max-width:782px){#optionsframework .section .explain{padding:4px 0}
+#wpbody-content{padding-bottom:20px}
+#optionsframework .controls input,#optionsframework .controls select,#optionsframework .controls textarea{font-size:9pt}
+#optionsframework h2{top:-46px;font-size:14px}
+}
+@media (max-width:730px){#optionsframework .section{padding:15px}
+#optionsframework .section h4{margin:0 0 8px;padding-left:15px;width:95%;border-left:3px solid #0692d2;text-align:left}
+#optionsframework .section .option{margin-left:20px}
+#optionsframework .section.mini-heading .heading {
+    border-color: #888;
+}
+}
+@media (max-width:610px){#optionsframework-wrap .updated.fade{right:5px;bottom:60px}
+#optionsframework-wrap .nav-page-title .after{right:7%}
+#optionsframework-wrap .button-nav-bj.xs{display:block;opacity:1}
+#optionsframework-submit input{height:2pc}
+#optionsframework-submit .button-nav{float:right;display:inline-block;margin:10px}
+#optionsframework-metabox{margin-left:0}
+#optionsframework-wrap nav{position:fixed;top:0;right:-200px;bottom:52px;z-index:9999;overflow-x:hidden;overflow-y:auto;padding:55px 15px 0;background:#fff;box-shadow:-20px 0 40px 0 rgba(0,0,0,.1);-webkit-overflow-scrolling:touch}
+#optionsframework-wrap .nav-tab-wrapper.xs{right:-1px}
+#wpbody-content{padding-bottom:50px}
+#optionsframework-submit{right:0;bottom:0;left:0;z-index:99999;padding:2px 10px;border:none;border-top:1px solid #ddd;border-radius:0;background:#fff;box-shadow:0 -10px 10px 0 hsla(0,0%,73%,.2);text-align:left}
+}
+@media (max-width:460px){#optionsframework .section .controls{min-width:90%}
+#optionsframework-wrap .nav-page-title .after{right:5%}
+#optionsframework .section-checkbox .explain,#optionsframework .section-multicheck label,#optionsframework .section-radio label{max-width:85%}
+#optionsframework .controls input.upload{width:70%}
+}
+#optionsframework .section.section-html-src p{margin-bottom:10px}
+#optionsframework .section.section-html-src{line-height:1.5}
+#optionsframework .section.section-html-src li{margin-left:30px}
+.box-theme{margin-bottom:20px;padding:10px}
+.title-theme{position:relative;margin-bottom:15px;padding-left:1.2em;color:#38aaff;font-size:1pc}
+.title-theme:before{position:absolute;bottom:10%;left:2px;width:4px;height:100%;border-radius:5px;background:#38aaff;box-shadow:1px 1px 3px -1px #38aaff;content:''}
+.irs{font-size:9pt;font-family:Arial,sans-serif;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.irs,.irs-line{position:relative;display:block}
+.irs-line{overflow:hidden;outline:0!important}
+.irs-bar{display:block}
+.irs-bar,.irs-shadow{position:absolute;left:0;width:0}
+.irs-shadow{display:none}
+.irs-handle{position:absolute;z-index:1;display:block;box-sizing:border-box;cursor:default}
+.irs-handle.type_last{z-index:2}
+.irs-max,.irs-min{position:absolute;display:block;cursor:default}
+.irs-min{left:0}
+.irs-max{right:0}
+.irs-from,.irs-single,.irs-to{position:absolute;top:0;left:0;display:block;white-space:nowrap;cursor:pointer}
+.irs-grid{position:absolute;bottom:0;left:0;display:none;width:100%;height:20px}
+.irs-with-grid .irs-grid{display:block}
+.irs-grid-pol{position:absolute;top:0;left:0;width:1px;height:8px;background:#000}
+.irs-grid-pol.small{height:4px}
+.irs-grid-text{position:absolute;bottom:0;left:0;padding:0 3px;color:#000;text-align:center;white-space:nowrap;font-size:9px;line-height:9px}
+.irs-disable-mask{position:absolute;top:0;left:-1%;z-index:2;display:block;width:102%;height:100%;background:0 0;cursor:default}
+.lt-ie9 .irs-disable-mask{background:#000;cursor:not-allowed}
+.irs-disabled{opacity:.4}
+.irs-hidden-input{position:absolute!important;top:0!important;left:0!important;z-index:-9999!important;display:block!important;overflow:hidden;margin:0!important;padding:0!important;width:0!important;height:0!important;outline:0!important;border-color:transparent!important;border-style:solid!important;background:0 0!important;font-size:0!important;line-height:0!important}
+.irs--flat{height:40px}
+.irs--flat.irs-with-grid{height:60px}
+.irs--flat .irs-line{top:25px;height:3px;border-radius:4px;background-color:#e1e4e9;cursor:pointer}
+.irs--flat .irs-bar{top:25px;height:3px;background-image:linear-gradient(135deg,#f97794 10%,#ea44d3 100%)}
+.irs--flat .irs-bar--single{border-radius:4px 0 0 4px}
+.irs--flat .irs-shadow{bottom:1pc;height:1px;background-color:#e1e4e9}
+.irs--flat .irs-handle{top:10px;left:-10px;width:18px;height:30px;background-color:transparent;cursor:pointer}
+.irs--flat .irs-handle>i:first-child{position:absolute;transition: .2s;top:10px;left:2px;display:block;width:8px;height:8px;border:3px solid #fff;border-radius:100%;background-color:#fa6888;box-shadow:0 0 3px rgba(0,0,0,.3)}
+.irs--flat .irs-handle.state_hover>i:first-child,.irs--flat .irs-handle:hover>i:first-child{border-color:#fa6888;background-color:#fff}
+.irs--flat .irs-max,.irs--flat .irs-min{top:0;padding:1px 3px;border-radius:4px;background-color:#e1e4e9;color:#999;text-shadow:none;font-size:10px;line-height:1.333}
+.irs--flat .irs-from,.irs--flat .irs-single,.irs--flat .irs-to{padding:1px 5px;border-radius:4px;background-image:linear-gradient(135deg,#f97794 10%,#f36bcf 100%);color:#fff;text-shadow:none;font-size:10px;line-height:1.333}
+.irs--flat .irs-from:before,.irs--flat .irs-single:before,.irs--flat .irs-to:before{position:absolute;bottom:-6px;left:50%;display:block;overflow:hidden;margin-left:-3px;width:0;height:0;border:3px solid transparent;content:"";border-top-color:#ed5565}
+.irs--flat .irs-grid-pol{background-color:#e1e4e9}
+.irs--flat .irs-grid-text{color:#999}
+
+/*----按钮样式------*/
+
+.but {
+    border-radius: 4px;
+
+    display: inline-block;
+    border-radius: 4px;
+    -webkit-transition: .15s;
+    transition: .15s;
+    vertical-align: middle;
+    padding: .3em 1em;
+    text-align: center;
+    box-shadow: var(--this-shadow);
+    background: var(--this-bg);
+    color: var(--this-color);
+    border: 1px solid var(--this-border);
+    --main-color: var(--this-color);
+    --this-bg: rgba(136, 136, 136, .1);
+    --this-border: transparent;
+    --this-shadow: none;
+    --this-color: #888;
+    line-height: 1.44;
+    text-decoration: none;
+}
+
+.but a {
+    color: inherit;
+}
+
+.but svg.icon,
+.but>.fa {
+    margin-right: .25em;
+}
+
+.but.radius,
+.radius>.but {
+    border-radius: 50px;
+    padding: .3em .8em
+}
+
+.but.hollow {
+    background: transparent;
+    --this-border: var(--this-color);
+}
+
+.but:focus,
+.but:hover {
+    opacity: .8;
+    background: var(--this-bg);
+    color: var(--this-color);
+    --this-shadow: inset 0 2px 3px rgba(0, 0, 0, .08);
+    box-shadow: var(--this-shadow);
+}
+
+.but:active {
+    --this-shadow: inset 0 2px 3px rgba(0, 0, 0, .08);
+    background: var(--this-bg);
+    color: var(--this-color);
+}
+
+.but.hollow:hover {
+    background: var(--this-color);
+    color: #fff;
+}
+
+.padding-lg,
+.but.padding-lg {
+    padding: .5em 2em;
+}
+
+.b-theme,
+.b-red,
+.b-yellow,
+.b-blue,
+.b-green,
+.b-purple,
+.jb-red,
+.jb-yellow,
+.jb-blue,
+.jb-green,
+.jb-purple {
+    color: #fff;
+    background: var(--this-bg);
+    --this-color: #fff;
+}
+
+.jb-red,
+.jb-yellow,
+.jb-blue,
+.jb-green,
+.jb-purple {
+    border: none;
+}
+
+.b-theme {
+    --this-bg: var(--focus-color);
+}
+
+.b-red {
+    --this-bg: #ff5473;
+}
+
+.b-yellow {
+    --this-bg: #ff6f06;
+}
+
+.b-blue {
+    --this-bg: #2997f7;
+}
+
+.b-green {
+    --this-bg: #12b928;
+}
+
+.b-purple {
+    --this-bg: #d448f5;
+}
+
+.c-red,
+.c-yellow,
+.c-blue,
+.c-green,
+.c-purple {
+    color: var(--this-color);
+}
+
+.c-red {
+    --this-color: #ff5473;
+    --this-bg: rgba(255, 84, 115, .1);
+}
+
+.c-yellow {
+    --this-color: #ff6f06;
+    --this-bg: rgba(255, 111, 6, 0.1);
+}
+
+.c-blue {
+    --this-color: #2997f7;
+    --this-bg: rgb(41, 151, 247, .1);
+}
+
+.c-green {
+    --this-color: #12b928;
+    --this-bg: rgba(18, 185, 40, .1);
+}
+
+.c-purple {
+    --this-color: #d448f5;
+    --this-bg: rgba(213, 72, 245, 0.1);
+}
+
+.jb-red {
+    --this-bg: linear-gradient(135deg, #fd7a64 10%, #fb2d2d 100%)
+}
+
+.jb-yellow {
+    --this-bg: linear-gradient(135deg, #f99d4d 10%, #f7631d 100%)
+}
+
+.jb-blue {
+    --this-bg: linear-gradient(135deg, #59c3fb 10%, #268df7 100%)
+}
+
+.jb-green {
+    --this-bg: linear-gradient(135deg, #60e464 10%, #5cb85b 100%)
+}
+
+.jb-purple {
+    --this-bg: linear-gradient(135deg, #f98dfb 10%, #ea00f9 100%)
+}
+

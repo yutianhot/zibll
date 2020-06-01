@@ -1,0 +1,26 @@
+div div.wp-editor-container{border:1px solid var(--main-border-color);border-radius:4px;overflow:hidden}
+div div.mce-toolbar .mce-btn-group>div{white-space:nowrap}
+div div.mce-toolbar-grp{border-bottom:none;background:0 0}
+div div.mce-flow-layout{white-space:unset;padding:10px;opacity:.8;overflow-y:auto;-webkit-transition:.2s;transition:.2s}
+div div.mce-flow-layout:hover{opacity:.9}
+div div.mce-toolbar .mce-btn-group .mce-btn,div div.qt-dfw{border-color:transparent!important;border-radius:6px;opacity:.8}
+div div.mce-toolbar .mce-btn-group .mce-btn:focus,div div.mce-toolbar .mce-btn-group .mce-btn:hover,div div.qt-dfw:focus,div div.qt-dfw:hover{border-color:transparent;border-radius:6px;background:#eceeef;box-shadow:none;opacity:1}
+div div.mce-toolbar .mce-btn-group .mce-btn.mce-active,div div.mce-toolbar .mce-btn-group .mce-btn:active,div div.qt-dfw.active{opacity:1}
+div div.mce-container,div div.mce-container *,div div.mce-widget,div div.mce-widget *{color:#3f4e52}
+div div.mce-top-part::before{box-shadow:0 1px 0 var(--main-border-color)}
+div div.mce-toolbar div div.mce-btn button,div div.qt-dfw{padding:2px 5px}
+div div.mce-toolbar .mce-btn-group{padding:0}
+div div.wp-core-ui .button,div div.wp-core-ui .button-secondary{border:none!important;margin:3px!important;outline:0!important;border-radius:4px!important;background:rgba(51,155,248,.1)!important;color:#2f99f7!important;box-shadow:none!important}
+.screen-reader-text{display:none}
+.media-modal-content{border-radius:var(--main-radius)}
+.new-title{padding-right:90px}
+.content-layout .mce-flow-layout::-webkit-scrollbar{width:3px;height:3px}
+.content-layout .mce-flow-layout::-webkit-scrollbar-track{border-radius:10px}
+.content-layout .mce-flow-layout::-webkit-scrollbar-thumb{border-radius:10px;background:rgba(0,0,0,0)}
+.content-layout .mce-flow-layout:hover::-webkit-scrollbar-thumb{background:rgba(146,146,146,.3)}
+.content-layout .mce-flow-layout::-webkit-scrollbar-thumb:hover{background:rgba(145,145,145,.7)}
+.content-layout .mce-flow-layout::-webkit-scrollbar-thumb:window-inactive{background:rgba(146,146,146,.1)}
+div .wp-editor-tabs{float:none}
+div .html-active .switch-html,div .tmce-active .switch-tmce{background:0 0;border:none}
+@media (max-width:996px){body .newposts-wrap{float:none}
+}

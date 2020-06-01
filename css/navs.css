@@ -1,0 +1,5 @@
+.cat-group{height:200px;background:var(--body-bg-color);border:1px solid var(--main-border-color);border-radius:4px;overflow:hidden;padding:5px;overflow-y:auto}
+.sortable-cat-item{background:var(--main-border-color);padding:4px;-webkit-transition:.2s;transition:.2s;border-radius:4px;margin:2px;display:inline-block;cursor:-webkit-grab;cursor:grab;width:calc(100% - 15px);min-width:100px}
+.sortable-cat-item .badge{margin-left:4px;background:var(--main-border-color);color:inherit}
+#cat-sortable-ok .sortable-cat-item{background:rgba(73,214,253,.1);color:#069cf3}
+.sortable-cat-item.sortable-selected{background:rgba(251,82,82,.1)!important;color:#fb5454!important}
